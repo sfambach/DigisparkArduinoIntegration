@@ -18,13 +18,14 @@
           "archiveFileName": "Digispark-Saved-0.0.1.zip",
           "checksum": "SHA-256:8edc6bc726a043d38517d14cc5669a662e70b41861dcd7743d65cf42a6bd2532",
           "size": "1935987",
-          "help": {
+          "help":{
             "online": "https://github.com/sfambach/DigisparkArduinoIntegration"
           },
-          "boards": {
+          "boards":[ 
+            {
               "name": "Digispark (Tiny Core)"
-          }           
-          ,
+            }           
+          ],
           "toolsDependencies": [
             {
               "packager": "arduino",
