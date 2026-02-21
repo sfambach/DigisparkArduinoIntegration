@@ -1,7 +1,7 @@
 {
    "packages":[
       {
-         "name":"digistump-saved",
+         "name":"digispark-saved",
          "maintainer":"SFambach",
          "websiteURL":"https://github.com/sfambach/DigisparkArduinoIntegration",
          "email":"spam1@bobbelsche.de",
@@ -13,7 +13,7 @@
           "name": "Digistump AVR Boards - Saved",
           "architecture": "avr",
           "version": "0.0.1",
-          "category": "Digistump",
+          "category": "digispark-saved",
           "url": "https://github.com/sfambach/DigisparkArduinoIntegration/releases/download/Initial_v0.0.1/Digispark-Saved-0.0.1.zip",
           "archiveFileName": "Digispark-Saved-0.0.1.zip",
           "checksum": "SHA-256:4bbcfa63fb0caf74c379905888d352f4df2ac3beb0a20c1054bb2988777ee33b",
@@ -33,7 +33,7 @@
               "version": "4.8.1-arduino5"
             },
             {
-              "packager": "digistump-saved",
+              "packager": "digispark-saved",
               "name": "micronucleus",
               "version": "2.0a4"
             }
