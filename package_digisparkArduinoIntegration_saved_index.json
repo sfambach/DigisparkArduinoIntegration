@@ -10,7 +10,7 @@
          },
          "platforms":[
          {
-          "name": "Digistump AVR Boards - Saved",
+          "name": "Digispark- Saved",
           "architecture": "avr",
           "version": "0.0.1",
           "category": "digispark-saved",
