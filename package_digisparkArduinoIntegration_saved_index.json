@@ -48,29 +48,29 @@
                {
                  "host": "x86_64-apple-darwin",
                  "archiveFileName": "micronucleus-2.0a4-osx.tar.gz",
-                 "url": "https://web.archive.org/web/20241212130901/https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-osx.tar.gz",
-                 "checksum": "SHA-256:B5EB0C7B251CD88F4816186BB931855834141E71A28D90FB9E46788E483AA421",
+                 "url": "https://github.com/sfambach/DigisparkArduinoIntegration/releases/download/Initial_v0.0.1/micronucleus-saved-2.0a4-osx.tar.gz",
+                 "checksum": "SHA-256:b5eb0c7b251cd88f4816186bb931855834141e71a28d90fb9e46788e483aa421",
                  "size": "51203"
                },
                {
                  "host": "i686-mingw32",
                  "archiveFileName": "micronucleus-2.0a4-win.zip",
-                 "url": "https://web.archive.org/web/20241212130901/https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-win.zip",
-                 "checksum": "SHA-256:7027971118FDE88484AACB5D8CA7867D66E273839EC3B2592616829317BB70E4",
+                 "url": "https://github.com/sfambach/DigisparkArduinoIntegration/releases/download/Initial_v0.0.1//micronucleus-saved-2.0a4-win.zip",
+                 "checksum": "SHA-256:7027971118fde88484aacb5d8ca7867d66e273839ec3b2592616829317bb70e4",
                  "size": "1712005"
                },
                {
                  "host": "i686-linux-gnu",
                  "archiveFileName": "micronucleus-2.0a4-linux32.tar.gz",
-                 "url": "https://web.archive.org/web/20241212130901/https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux32.tar.gz",
-                 "checksum": "SHA-256:0D4286388EED28D1ECB29AFE81253F24F54D4F0A5C1B2C17507EABD504C595F8",
+                 "url": "https://github.com/sfambach/DigisparkArduinoIntegration/releases/download/Initial_v0.0.1//micronucleus-saved-2.0a4-linux32.tar.gz",
+                 "checksum": "SHA-256:0d4286388eed28d1ecb29afe81253f24f54d4f0a5c1b2c17507eabd504c595f8",
                  "size": "21909"
                },
                {
                  "host": "x86_64-linux-gnu",
                  "archiveFileName": "micronucleus-2.0a4-linux64.tar.gz",
-                 "url": "https://web.archive.org/web/20241212130901/https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux64.tar.gz",
-                 "checksum": "SHA-256:1F545C0BB60E85A604901C2D7044772AC91776594C209C571DFEDAD4A70195B8",
+                 "url": "https://github.com/sfambach/DigisparkArduinoIntegration/releases/download/Initial_v0.0.1//1.6.5a/micronucleus-saved-2.0a4-linux64.tar.gz",
+                 "checksum": "SHA-256:1f545c0bb60e85a604901c2d7044772ac91776594c209c571dfedad4a70195b8",
                  "size": "22874"
                }
              ]
