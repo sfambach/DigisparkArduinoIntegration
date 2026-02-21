@@ -1,8 +1,8 @@
 {
    "packages":[
       {
-         "name":"digistump",
-         "maintainer":"Digistump",
+         "name":"digistump-save",
+         "maintainer":"SFambach",
          "websiteURL":"https://github.com/sfambach/DigisparkArduinoIntegration",
          "email":"spam1@bobbelsche.de",
          "help":{
