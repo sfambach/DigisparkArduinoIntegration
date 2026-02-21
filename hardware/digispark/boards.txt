@@ -3,6 +3,7 @@ digispark-tiny.upload.maximum_size=6012
 digispark-tiny.build.mcu=attiny85
 digispark-tiny.build.f_cpu=16500000L
 digispark-tiny.build.core=tiny
+digispark-tiny.uno.build.board=AVR_UNO
 digispark-tiny.upload.using=digispark
 digispark-tiny.bootloader.low_fuses=0xf1
 digispark-tiny.bootloader.high_fuses=0x5f
