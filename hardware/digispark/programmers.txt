@@ -1,3 +1,11 @@
 digispark.name=Digispark
 digispark.communication=usb
 digispark.protocol=digispark
+digispark.program.tool=avrdude
+digispark.program.tool.default=avrdude
+
+micronucleusprog.name=Micronucleus 
+micronucleusprog.communication=usb
+micronucleusprog.protocol=micronucleus
+micronucleusprog.program.tool={runtime.tools.micronucleus.path}/micronucleus
+micronucleusprog.program.extra_params=-Pusb

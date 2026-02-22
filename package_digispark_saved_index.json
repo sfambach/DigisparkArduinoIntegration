@@ -22,9 +22,10 @@
             "online": "https://github.com/sfambach/DigisparkArduinoIntegration"
           },
           "boards":[ 
-            {
-              "name": "Digispark (Tiny Core)"
-            }           
+            { "name": "Digispark (Tiny Core)" },           
+            { "name": "Digispark 16.0mhz - NO USB (Tiny Core)" },
+            { "name": "Digispark 8mhz - NO USB (Tiny Core)" },
+            { "name": "Digispark 1mhz - NO USB (Tiny Core)"}
           ],
           "toolsDependencies": [
             {
