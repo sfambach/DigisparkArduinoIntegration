@@ -5,15 +5,13 @@ digispark-tiny.build.f_cpu=16500000L
 digispark-tiny.build.core=tiny
 digispark-tiny.build.board=DIGISPARK_TINY
 digispark-tiny.upload.using=digispark
-
-digispark-tiny.bootloader.tool=arduino:avrdude
 digispark-tiny.bootloader.low_fuses=0xf1
-digispark-tiny.bootloader.high_fuses=0xdf
+digispark-tiny.bootloader.high_fuses=0x5f
 digispark-tiny.bootloader.extended_fuses=0xfe
-#digispark-tiny.bootloader.unlock_bits=0xff
-#digispark-tiny.bootloader.lock_bits=0xff
+digispark-tiny.bootloader.tool=avrdude
 digispark-tiny.bootloader.path=micronucleus
-digispark-tiny.bootloader.file=micronucleus/micronucleus-1.06-upgrade.hex
+digispark-tiny.bootloader.file=micronucleus-1.06-upgrade.hex
+
 
 digispark-tiny16mhz.name=Digispark 16.0mhz - NO USB (Tiny Core)
 digispark-tiny16mhz.upload.maximum_size=6012
