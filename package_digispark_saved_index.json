@@ -9,7 +9,7 @@
             "online":"https://github.com/sfambach/DigisparkArduinoIntegration"
          },
          "platforms":[
-         {
+          {
           "name": "Digispark- Saved",
           "architecture": "avr",
           "version": "0.0.1",
@@ -21,9 +21,9 @@
           "help":{
             "online": "https://github.com/sfambach/DigisparkArduinoIntegration"
           },
-          "boards":[ 
+          "boards": 
             { "name": "Digispark (Tiny Core)" }           
-          ],
+          ,
           "toolsDependencies": [
             {
               "packager": "digispark-saved",
