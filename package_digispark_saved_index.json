@@ -23,9 +23,6 @@
           },
           "boards":[ 
             { "name": "Digispark (Tiny Core)" },           
-            { "name": "Digispark 16.0mhz - NO USB (Tiny Core)" },
-            { "name": "Digispark 8mhz - NO USB (Tiny Core)" },
-            { "name": "Digispark 1mhz - NO USB (Tiny Core)"}
           ],
           "toolsDependencies": [
             {
@@ -54,7 +51,7 @@
                {
                  "host": "i686-mingw32",
                  "archiveFileName": "micronucleus-saved-2.0a4-win.zip",
-                 "url": "https://github.com/sfambach/DigisparkArduinoIntegration/releases/download/Initial_v0.0.1//micronucleus-saved-2.0a4-win.zip",
+                 "url": "https://github.com/sfambach/DigisparkArduinoIntegration/releases/download/Initial_v0.0.1/micronucleus-saved-2.0a4-win.zip",
                  "checksum": "SHA-256:7027971118fde88484aacb5d8ca7867d66e273839ec3b2592616829317bb70e4",
                  "size": "1712005"
                },
