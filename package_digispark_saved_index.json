@@ -22,7 +22,7 @@
             "online": "https://github.com/sfambach/DigisparkArduinoIntegration"
           },
           "boards":[ 
-            { "name": "Digispark (Tiny Core)" },           
+            { "name": "Digispark (Tiny Core)" }           
           ],
           "toolsDependencies": [
             {
