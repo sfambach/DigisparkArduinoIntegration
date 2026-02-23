@@ -15,5 +15,4 @@ digispark-tiny.bootloader.high_fuses=0xdf
 digispark-tiny.bootloader.extended_fuses=0xfe
 #digispark-tiny.bootloader.unlock_bits=0xff
 #digispark-tiny.bootloader.lock_bits=0xff
-digispark-tiny.bootloader.path=empty
-digispark-tiny.bootloader.file=empty/empty85at1.hex
+digispark-tiny.bootloader.file=micronucleus/t85_default.hex
