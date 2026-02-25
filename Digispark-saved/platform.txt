@@ -1,14 +1,69 @@
-#name=Digispark
+name=Digispark
+
+# Avrdude 
+# --------------------
+
 
 #tools.avrdude.path={runtime.tools.avrdude.path}
 #tools.avrdude.cmd.path={path}/bin/avrdude
 #tools.avrdude.config.path={path}/etc/avrdude.conf
-#tools.avrdude.erase.params.verbose=-v -v -v -v
-#tools.avrdude.erase.params.quiet=-q -q
 
-tools.avrdude.erase.pattern="{cmd.path}" "-C{config.path}" {erase.verbose} -p{build.mcu} -c{protocol} {program.extra_params} -e 
-#-Uefuse:w:{bootloader.extended_fuses}:m -Uhfuse:w:{bootloader.high_fuses}:m -Ulfuse:w:{bootloader.low_fuses}:m
 
-#tools.avrdude.bootloader.params.verbose=-v -v -v -v
-#tools.avrdude.bootloader.params.quiet=-q -q
-#tools.avrdude.bootloader.pattern="{cmd.path}" "-C{config.path}" -p{build.mcu} -c{upload.port.protocol} -P{upload.port.address} -b{upload.speed} -D "-Uflash:w:{build.path}/{build.project_name}.hex"
+tools.avrdude.erase.params.verbose=-v
+tools.avrdude.erase.params.quiet=-q
+tools.avrdude.erase.pattern=
+#tools.avrdude.erase.pattern=""{cmd.path}" "-C{config.path}" {erase.verbose}  -p{build.mcu} -c{protocol} {program.extra_params} -e 
+
+
+tools.avrdude.bootloader.params.verbose=
+tools.avrdude.bootloader.params.quiet=-q
+tools.avrdude.bootloader.verify=
+tools.avrdude.bootloader.pattern="{cmd.path}" {bootloader.verbose} -p{build.mcu} -c{protocol} "-Uflash:w:{runtime.platform.path}\bootloaders\{bootloader.file}:i" "-C{config.path}"
+
+
+
+tools.avrdude.program.params.verbose=-v -v -v
+tools.avrdude.program.params.quiet=-q -q
+tools.avrdude.program.verify=
+tools.avrdude.program.params.noverify=-V
+tools.avrdude.program.pattern="{cmd.path}" "-C{config.path}" {program.verbose} {program.verify} -p{build.mcu} -c{protocol} {program.extra_params} "-Uflash:w:{build.path}/{build.project_name}.hex:i"
+
+#-b{upload.speed}
+#-P{upload.port.address}
+#-Uefuse:w:{bootloader.extended_fuses}:m 
+#-Uhfuse:w:{bootloader.high_fuses}:m 
+#-Ulfuse:w:{bootloader.low_fuses}:m
+#"-C{config.path}"
+
+
+
+# Uploader/Programmers Tools from digidump-avr 
+# https://github.com/sfambach/DigistumpArduino/blob/master/digistump-avr/platform.txt
+# ------------------------------
+
+#tools.micronucleus.cmd.path={runtime.ide.path}/hardware/digistump/avr/tools/avrdude
+#tools.micronucleus.cmd.path.linux={runtime.ide.path}/hardware/digistump/avr/tools/avrdude
+tools.micronucleus.cmd.path={runtime.tools.micronucleus.path}/micronucleus
+
+tools.micronucleus.upload.params.verbose=
+tools.micronucleus.upload.params.quiet=
+tools.micronucleus.upload.pattern="{cmd.path}" --run --timeout 60 "{build.path}/{build.project_name}.hex"
+#tools.micronucleus.upload.pattern="{cmd.path}" -cdigispark --timeout 60 -Uflash:w:{build.path}/{build.project_name}.hex:i"
+
+tools.micronucleus.erase.params.verbose=
+tools.micronucleus.erase.params.quiet=
+tools.micronucleus.erase.pattern="{cmd.path}" --run --timeout 60 "{build.path}/{build.project_name}.hex"
+
+ 
+tools.micronucleus.bootloader.params.verbose=
+tools.micronucleus.bootloader.params.quiet=-
+tools.micronucleus.bootloader.verify=
+tools.micronucleus.bootloader.pattern="{program.tool}" "{program.extra_params}" "{runtime.platform.path}\bootloaders\{bootloader.file}"
+
+
+
+# USB Default Flags
+# Default blank usb manufacturer will be filled it at compile time
+# - from numeric vendor ID, set to Unknown otherwise
+build.usb_manufacturer=
+build.usb_flags=

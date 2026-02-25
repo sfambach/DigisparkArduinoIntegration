@@ -1,3 +1,7 @@
+menu.bootfile=Bootloader File
+menu.boottool=Bootloader Prog. Tool
+
+
 digispark-tiny.name=Digispark (Tiny Core)
 digispark-tiny.upload.maximum_size=6012
 digispark-tiny.upload.tool=micronucleus
@@ -8,11 +12,23 @@ digispark-tiny.build.core=arduino:arduino
 digispark-tiny.build.board=attiny
 digispark-tiny.build.variant=digispark_tiny
 digispark-tiny.upload.using=micronucleus
+digispark-tiny.upload.speed=9600
 
-digispark-tiny.bootloader.tool=arduino:avrdude
+#digispark-tiny.bootloader.tool=arduino:avrdude
 digispark-tiny.bootloader.low_fuses=0xf1
 digispark-tiny.bootloader.high_fuses=0xdf
 digispark-tiny.bootloader.extended_fuses=0xfe
+digispark-tiny.bootloader.tool=arduino:avrdude
 #digispark-tiny.bootloader.unlock_bits=0xff
 #digispark-tiny.bootloader.lock_bits=0xff
-digispark-tiny.bootloader.file=micronucleus/t85_default.hex
+digispark-tiny.bootloader.upload.speed=115200
+digispark-tiny.bootloader.file=micronucleus\t85_default.hex
+
+digispark-tiny.menu.bootfile.mnnormal=Digispark T85a16
+digispark-tiny.menu.bootfile.mnnormal.bootloader.file=empty\empty85at16.hex
+
+digispark-tiny.menu.bootfile.mnaggressiv=Micronucleus T85 Agressiv
+digispark-tiny.menu.bootfile.mnaggressiv.bootloader.file=micronucleus\t85_aggressive.hex
+
+digispark-tiny.menu.bootfile.digispark= Micronucleus T85 Default
+digispark-tiny.menu.bootfile.digispark.bootloader.file=micronucleus\t85_default.hex
