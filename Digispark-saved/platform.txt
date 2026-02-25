@@ -18,7 +18,7 @@ tools.avrdude.erase.pattern=
 tools.avrdude.bootloader.params.verbose=
 tools.avrdude.bootloader.params.quiet=-q
 tools.avrdude.bootloader.verify=
-tools.avrdude.bootloader.pattern="{cmd.path}" {bootloader.verbose} -p{build.mcu} -c{protocol} "-Uflash:w:{runtime.platform.path}\bootloaders\{bootloader.file}:i" "-C{config.path}"
+tools.avrdude.bootloader.pattern="{cmd.path}" {bootloader.verbose} -p{build.mcu} -c{protocol} -e "-Uflash:w:{runtime.platform.path}\bootloaders\{bootloader.file}:i" "-C{config.path}"
 
 
 
