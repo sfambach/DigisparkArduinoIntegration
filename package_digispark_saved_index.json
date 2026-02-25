@@ -50,8 +50,8 @@
           "category": "digispark-saved",
           "url": "https://github.com/sfambach/DigisparkArduinoIntegration/releases/download/First_Working_Version_v1.0.0/Digispark-saved-1.0.0.zip",
           "archiveFileName": "Digispark-Saved-1.0.0.zip",
-          "checksum": "SHA-256:8aacdf7d6babcc1b46e6b0b641a9ceb673aff40bd810390da0c96e0952139b8d",
-          "size": "1935987",
+          "checksum": "SHA-256:d3f4b09658a9117597fbdbb0637c06e6d5aafb6830fe200057dcd7b4dbd68b6b",
+          "size": "1929064",
           "help":{
             "online": "https://github.com/sfambach/DigisparkArduinoIntegration"
           },
