@@ -48,9 +48,9 @@
           "architecture": "avr",
           "version": "1.0.0",
           "category": "digispark-saved",
-          "url": "https://github.com/sfambach/DigisparkArduinoIntegration/releases/download/Initial_v0.0.1/Digispark-Saved-0.0.1.zip",
+          "url": "https://github.com/sfambach/DigisparkArduinoIntegration/releases/download/First_Working_Version_v1.0.0/Digispark-saved-1.0.0.zip",
           "archiveFileName": "Digispark-Saved-1.0.0.zip",
-          "checksum": "SHA-256:e758336aa898d466322deee682ed0a5613f826283de0919ca9cc2a68a7eb5cae",
+          "checksum": "SHA-256:8aacdf7d6babcc1b46e6b0b641a9ceb673aff40bd810390da0c96e0952139b8d",
           "size": "1935987",
           "help":{
             "online": "https://github.com/sfambach/DigisparkArduinoIntegration"
@@ -66,7 +66,7 @@
               "version": "avrdude_7.2-arduino.1"
             },
             {
-              "packager": "Micronucleus",
+              "packager": "digispark-saved",
               "name": "micronucleus",
               "version": "2.0a4"
             },
